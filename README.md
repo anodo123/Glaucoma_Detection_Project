@@ -1,25 +1,25 @@
-**Glaucoma Detection Project**
-Overview
-This project implements a deep learning system for detecting glaucoma in retinal images using CNN and U-Net architectures. The model achieves up to 92% accuracy, aiding in early diagnosis and treatment.
+****Glaucoma Detection Project****
+**Overview**
+This project implements a deep learning system for detecting glaucoma in retinal images using Convolutional Neural Networks (CNN) and U-Net architectures. The model achieves an accuracy of up to 92%, facilitating early diagnosis and treatment of this critical condition.
 
-Features
-High accuracy in glaucoma detection
-Real-time analysis of retinal images
+**Features**
+High Accuracy: Achieves up to 92% accuracy in glaucoma detection.
+Real-Time Analysis: Capable of analyzing retinal images in real-time to assist clinicians.
 Technologies
-Python
-TensorFlow/Keras
-OpenCV
-NumPy
-Dataset
+Programming Language: Python
+Deep Learning Framework: TensorFlow/Keras
+Image Processing: OpenCV
+Numerical Computation: NumPy
+**Dataset**
 The dataset folder contains:
 
 Model: Pre-trained models for quick inference.
-Training Data: A comprehensive set of retinal images used to train the model, including both healthy and glaucomatous samples.
-Testing Data: A separate set of images used to evaluate the model's performance.
-Usage
-Place retinal images in the data directory.
-Train the model using the training data.
-Predict on new images using the testing data.
-Future Work
+Training Data: A comprehensive set of retinal images, including both healthy and glaucomatous samples.
+Testing Data: A separate set of images for evaluating model performance.
+**Usage**
+The Model can be tesed on test dataset or on newer retinal images.
+The Code for testing the model is provided in the python notebook.
+
+**Future Work**
 Improve model accuracy through transfer learning and additional preprocessing techniques.
-Develop a user-friendly interface for clinicians.
+Develop a user-friendly interface for clinicians to facilitate the diagnosis process.
